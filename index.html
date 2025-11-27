@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+    <!-- google icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,200,0,0&" />
+    <title>Image Slider</title>
+</head>
+<body>
+    
+    <div class="slider-container swiper">
+        <div class="slider-wrapper swiper-wrapper">
+            
+            <div class="slider-item swiper-slide">
+                <div class="slider-content">
+                    <h3 class="slider-subtitle">slider 01</h3>
+                    <h2 class="slider-title">Streetwear Trends of the Season</h2>
+                    <p class="slider-description">
+                        Discover bold designs and relaxed silhouettes inspired by modern urban fashion for your everyday lifestyle.
+                    </p>
+                    <a href="#" class="side-button"><span>Learn More</span></a>
+                </div>
+            </div>
+
+            <div class="slider-item swiper-slide">
+                <div class="slider-content">
+                    <h3 class="slider-subtitle">slider 02</h3>
+                    <h2 class="slider-title">Cozy Autumn Collection</h2>
+                    <p class="slider-description">
+                        A selection of warm textures, oversized fits, and earthy tones crafted for comfort during colder days.
+                    </p>
+                    <a href="#" class="side-button"><span>Learn More</span></a>
+                </div>
+            </div>
+
+            <div class="slider-item swiper-slide">
+                <div class="slider-content">
+                    <h3 class="slider-subtitle">slider 03</h3>
+                    <h2 class="slider-title">Minimalist Formal Wear</h2>
+                    <p class="slider-description">
+                        Clean lines and neutral colors that redefine elegance, perfect for professional and special occasions.
+                    </p>
+                    <a href="#" class="side-button"><span>Learn More</span></a>
+                </div>
+            </div>
+
+            <div class="slider-item swiper-slide">
+                <div class="slider-content">
+                    <h3 class="slider-subtitle">slider 04</h3>
+                    <h2 class="slider-title">Casual Essentials for Everyday Style</h2>
+                    <p class="slider-description">
+                        A combination of comfort and simplicity designed for daily wear, from morning routines to weekend outings.
+                    </p>
+                    <a href="#" class="side-button"><span>Learn More</span></a>
+                </div>
+            </div>
+
+            <div class="slider-item swiper-slide">
+                <div class="slider-content">
+                    <h3 class="slider-subtitle">slider 05</h3>
+                    <h2 class="slider-title">Accessories That Complete Your Look</h2>
+                    <p class="slider-description">
+                        Explore bags, belts, and jewelry pieces created to elevate even the simplest outfit into something unique.
+                    </p>
+                    <a href="#" class="side-button"><span>Learn More</span></a>
+                </div>
+            </div>
+
+        </div>
+        
+        <div class="slide-controls">
+
+            <ul class="slide-pagination">
+                <div class="slider-indicator"></div>
+
+                <li class="slider-tab">Streetwear Trends</li>
+                <li class="slider-tab">Autumn Collection</li>
+                <li class="slider-tab">Minimalist Formal</li>
+                <li class="slider-tab">Casual Essentials</li>
+                <li class="slider-tab">Key Accessories</li>
+
+            </ul>
+
+        </div>
+
+        <!-- slider navigation (Prev/Next) -->
+        <div class="slider-navigations">
+            <button id="slider-prev" class="material-symbols-rounded">arrow_left_alt</button>
+
+            <button id="slider-next" class="material-symbols-rounded">arrow_right_alt</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
