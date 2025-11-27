@@ -4,7 +4,7 @@
 
 # 🌐 Live Demo  
 ### 🔗 **Click Here to View the Project**
-[Try it Online!]👉(**https://mr-syntax1.github.io/Modern-Slider-Tabs-UI-with-Swiper.js/**)
+[Try it Online!](https://mr-syntax1.github.io/Modern-Slider-Tabs-UI-with-Swiper.js/)  
 </div>
 
 <img width="1919" height="1079" alt="Screenshot5" src="https://github.com/user-attachments/assets/e4ac23d7-5dcb-4d03-adff-51ffeb763258" />
