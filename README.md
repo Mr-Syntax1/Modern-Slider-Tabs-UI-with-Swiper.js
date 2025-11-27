@@ -44,31 +44,13 @@ project-folder/
 │── index.html
 │── style.css
 │── script.js
-└── assets/
+└── images/
 ```
 
 ---
 
-## 🚀 How to Run
+## 💻 Usage
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   ```
-2. Open `index.html` in your browser.
-
----
-
-## 🖥️ Screenshots
-
-(Add your screenshots here)
-
----
-
-## 📜 License
-This project is released under the MIT License.
-
----
-
-## 💬 Contact
-If you want to contribute or report issues, feel free to open a pull request or issue.
+1. Clone the repository:  
+```bash
+git clone https://github.com/Mr-Syntax1/Modern-Slider-Tabs-UI-with-Swiper.js.git
